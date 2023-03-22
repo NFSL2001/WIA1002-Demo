@@ -21,6 +21,11 @@ public class ReadMyLetterP2 {
                     str[i] = nextline.strip();
                     i++;
                 }
+                /*
+                 * Or you can use a string to store everything including new line
+                 * String str = "";
+                 * str+=nextline;
+                 */
             }
             sc.close();
 
@@ -30,6 +35,10 @@ public class ReadMyLetterP2 {
             str[i++] = input.nextLine();
             System.out.println("Enter second part of letter: ");
             str[i++] = input.nextLine();
+            /*
+             * Or you can use a string to store everything including new line
+             * str+=input.nextLine();
+             */
             input.close();
 
             //save

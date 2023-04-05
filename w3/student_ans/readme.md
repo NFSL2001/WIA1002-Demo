@@ -1,0 +1,2 @@
+### Demonstrator note
+The answers here did not considered the edge cases where `bag1.union(bag2)` might exceed 25 items. The answer should contains a class constructor that accepts a parameter of `bagSize`, which can set the `T[] bag` with a size more than 25. `isFull()` will require modification to compare to `bag.length` instead of `DEFAULT_CAPACITY`.
